@@ -77,6 +77,7 @@ KEYWORD_BLACKLIST = ['中字', '韩语', '双字', '中英', '日语', '双语',
 
 # WebDriver路径
 WEBDRIVER_PATH = {
+    "MacOS": "/opt/homebrew/bin/chromedriver",
     "Docker": "/usr/lib/chromium/chromedriver",
     "Synology": "/var/packages/NASTool/target/bin/chromedriver"
 }
